@@ -1,0 +1,6 @@
+# 统一按 LF 存
+* text=auto eol=lf
+
+# 批处理文件必须保持 CRLF，否则 cmd.exe 解析会出错（行接错、命令认不出来）
+*.cmd -text
+*.bat -text

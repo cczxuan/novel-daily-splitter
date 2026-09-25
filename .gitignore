@@ -1,0 +1,15 @@
+# 样书与切分产物：里面是受版权保护的书籍正文，不入库
+sample/
+切分结果/
+*_split/
+
+# 电子书文件，防止将来误传整本书
+*.epub
+*.mobi
+*.azw3
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
